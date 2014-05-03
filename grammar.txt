@@ -1,0 +1,11 @@
+% start S
+% Non-terminals S, A, B, C
+% tokens a, b, c, d
+
+% Rules
+% S -> A c
+% S -> B C
+% A -> a A
+% A -> d
+% B -> b
+% C -> d
