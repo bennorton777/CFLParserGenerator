@@ -36,7 +36,11 @@ public class Terminal extends CFGObject {
 
     @Override
     public boolean isEpsilon() {
-        return false;
+        return _name.equals("epsilon");
+    }
+
+    public String toString() {
+        return _name;
     }
     public boolean isTerminal() {
         return true;

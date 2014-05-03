@@ -85,6 +85,9 @@ public class NonTerminal extends CFGObject {
     public boolean isTerminal() {
         return false;
     }
+    public String toString() {
+        return _name;
+    }
 
     public boolean canBeEpsilon() {
         for (Rule rule : _rules) {

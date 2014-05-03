@@ -62,7 +62,7 @@ public class Parser {
             for (String s : rValue.split(" ")) {
                 CFGObject o = null;
                 if ("epsilon".equals(s)) {
-                    o = new Epsilon();
+                    o = new Terminal("epsilon");
                 }
                 else if (isTerminal(s)) {
                     for (Terminal term : t) {
@@ -98,19 +98,27 @@ public class Parser {
 
         computeFirstAndFollowSets();
 
-        System.err.print("\t");
+        System.out.print("\t\t\t|\t\t\t");
         for (Terminal terminal : t) {
-            System.err.print(t + "\t");
+            System.out.print(terminal + "\t\t\t|\t\t\t");
         }
-        System.err.println();
+        System.out.println();
         for (NonTerminal n : nT) {
-            System.err.print(n + "\t");
+            System.out.print(n + "\t\t\t|\t\t\t");
             for (Terminal terminal : t) {
-                if (n.getFirstSet().containsKey(terminal)) {
-                    System.err.print(n.getFirstSet().get(terminal));
+                if (n.getFirstSet().containsKey(terminal) || (n.canBeEpsilon() && n.getFollowSet().contains(terminal))) {
+                    if (n.getFirstSet().containsKey(terminal)) {
+                        System.out.print(n + " -> " + n.getFirstSet().get(terminal) + "\t\t\t|\t\t\t");
+                    }
+                    else {
+                        System.out.print(n + " -> epsilon \t\t\t|\t\t\t");
+                    }
+                }
+                else {
+                    System.out.print("\t\t\t|\t\t\t");
                 }
             }
-            System.err.println();
+            System.out.println();
         }
 
 
@@ -124,6 +132,7 @@ public class Parser {
                 for (Rule rule : n.getRules()) {
                     for (int i=0; i<rule.getrSymbols().size(); i++) {
                         CFGObject symbol = rule.getrSymbols().get(i);
+                        if (symbol.isTerminal() && n.getFirstSet().containsKey(symbol)) break;
                         if (!symbol.isNonTerminal() && !symbol.isEpsilon() && !n.getFirstSet().containsKey((Terminal) symbol)) {
                             changed = true;
                             n.getFirstSet().put((Terminal) symbol, rule);
@@ -146,10 +155,10 @@ public class Parser {
                         if (
                                 (i == rule.getrSymbols().size() -1) &&
                                 (symbol.isEpsilon() || (symbol.isNonTerminal() && ((NonTerminal) symbol).canBeEpsilon()))
-                                && (!n.getFirstSet().containsKey(new Epsilon()))
+                                && (!n.getFirstSet().containsKey(new Terminal("epsilon")))
                                 ) {
                             changed = true;
-                            n.getFirstSet().put(new Epsilon(), rule);
+                            n.getFirstSet().put(new Terminal("epsilon"), rule);
                         }
                     }
                 }

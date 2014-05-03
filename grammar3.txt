@@ -1,0 +1,8 @@
+% start S
+% Non-terminals S, A
+% tokens a, b, c
+
+% Rules
+% S -> a A b
+% A -> c
+% A -> epsilon

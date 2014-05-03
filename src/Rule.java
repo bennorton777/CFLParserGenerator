@@ -26,6 +26,13 @@ public class Rule {
         this.lValue = lValue;
         this.rSymbols = rSymbols;
     }
+    public String toString() {
+        String s = "";
+        for (CFGObject o : rSymbols) {
+            s += " " + o;
+        }
+        return s;
+    }
 
     private List<CFGObject> rSymbols;
 

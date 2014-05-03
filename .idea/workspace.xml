@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c0be2e3-7660-4573-bdbf-3e0a53909663" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Driver.java" />
+      <change type="DELETED" beforePath="C:\gitwork\4240hw2\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\gitwork\4240hw2\src\Epsilon.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Driver.java" afterPath="$PROJECT_DIR$/src/Driver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NonTerminal.java" afterPath="$PROJECT_DIR$/src/NonTerminal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parser.java" afterPath="$PROJECT_DIR$/src/Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rule.java" afterPath="$PROJECT_DIR$/src/Rule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Terminal.java" afterPath="$PROJECT_DIR$/src/Terminal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4240hw2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,22 +65,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/Parser.java" line="100" class="Parser" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Parser.java" line="113" class="Parser" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/Parser.java" line="159" class="Parser" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -101,7 +93,7 @@
       <file leaf-file-name="Terminal.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Terminal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="29" selection-start="748" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="850">
+            <state line="43" column="5" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="918">
               <folding>
                 <element signature="e#107#108#0" expanded="true" />
                 <element signature="e#135#136#0" expanded="true" />
@@ -115,7 +107,7 @@
       <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="0" selection-start="4053" selection-end="4053" vertical-scroll-proportion="0.0" vertical-offset="2226" max-vertical-offset="3128">
+            <state line="120" column="22" selection-start="4494" selection-end="4494" vertical-scroll-proportion="-6.0545454" vertical-offset="1707" max-vertical-offset="3281">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#352#365#0" expanded="true" />
@@ -123,32 +115,6 @@
                 <element signature="e#452#458#0" expanded="true" />
                 <element signature="e#1070#1078#0" expanded="true" />
                 <element signature="e#2315#2326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Epsilon.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Epsilon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="274" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rule.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,7 +132,7 @@
       <file leaf-file-name="Driver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="35" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="6" column="41" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -181,11 +147,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NonTerminal.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="grammar2.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grammar2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="75" selection-start="0" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grammar3.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grammar3.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="16" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="123" selection-start="739" selection-end="739" vertical-scroll-proportion="0.4373928" vertical-offset="0" max-vertical-offset="583">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonTerminal.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NonTerminal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="56" selection-start="159" selection-end="167" vertical-scroll-proportion="0.17114094" vertical-offset="0" max-vertical-offset="1751">
+            <state line="86" column="5" selection-start="1736" selection-end="1795" vertical-scroll-proportion="0.0" vertical-offset="1002" max-vertical-offset="1802">
               <folding>
+                <element signature="e#158#174#0" expanded="true" />
                 <element signature="e#245#246#0" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
                 <element signature="e#322#328#0" expanded="true" />
@@ -223,14 +217,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/grammar.txt" />
-        <option value="$PROJECT_DIR$/src/Driver.java" />
-        <option value="$PROJECT_DIR$/src/Rule.java" />
         <option value="$PROJECT_DIR$/grammar.txt" />
-        <option value="$PROJECT_DIR$/src/Terminal.java" />
         <option value="$PROJECT_DIR$/src/CFGObject.java" />
         <option value="$PROJECT_DIR$/src/Epsilon.java" />
-        <option value="$PROJECT_DIR$/src/Parser.java" />
         <option value="$PROJECT_DIR$/src/NonTerminal.java" />
+        <option value="$PROJECT_DIR$/src/Terminal.java" />
+        <option value="$PROJECT_DIR$/src/Rule.java" />
+        <option value="$PROJECT_DIR$/src/grammar2.txt" />
+        <option value="$PROJECT_DIR$/src/Driver.java" />
+        <option value="$PROJECT_DIR$/grammar3.txt" />
+        <option value="$PROJECT_DIR$/grammar2.txt" />
+        <option value="$PROJECT_DIR$/src/Parser.java" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -322,7 +320,7 @@
       <recent name="C:\gitwork\4240hw2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.g3">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -450,10 +448,10 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
+    <configuration default="false" name="g1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="grammar.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -467,11 +465,53 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+    <configuration default="false" name="g2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="grammar2.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="4240hw2" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="g3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="grammar3.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="4240hw2" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.g1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.g2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.g3" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -501,14 +541,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25079873" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -537,17 +577,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+        <state line="31" column="23" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="765">
           <folding>
+            <element signature="e#116#117#0" expanded="true" />
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#230#231#0" expanded="true" />
@@ -559,16 +593,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grammar.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Terminal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="29" selection-start="748" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="850">
+        <state line="43" column="5" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="918">
           <folding>
             <element signature="e#107#108#0" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
@@ -585,31 +612,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Epsilon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="274" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="0" selection-start="4053" selection-end="4053" vertical-scroll-proportion="0.0" vertical-offset="1903" max-vertical-offset="3128">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#365#0" expanded="true" />
-            <element signature="e#402#412#0" expanded="true" />
-            <element signature="e#452#458#0" expanded="true" />
-            <element signature="e#1070#1078#0" expanded="true" />
-            <element signature="e#2315#2326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NonTerminal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="159" selection-end="167" vertical-scroll-proportion="0.17114094" vertical-offset="0" max-vertical-offset="1751">
+        <state line="86" column="5" selection-start="1736" selection-end="1795" vertical-scroll-proportion="0.0" vertical-offset="1002" max-vertical-offset="1802">
           <folding>
+            <element signature="e#158#174#0" expanded="true" />
             <element signature="e#245#246#0" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
             <element signature="e#322#328#0" expanded="true" />
@@ -629,6 +636,55 @@
             <element signature="e#1369#1370#0" expanded="true" />
             <element signature="e#1403#1404#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammar3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="22" selection-start="4494" selection-end="4494" vertical-scroll-proportion="-6.0545454" vertical-offset="1707" max-vertical-offset="3281">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#365#0" expanded="true" />
+            <element signature="e#402#412#0" expanded="true" />
+            <element signature="e#452#458#0" expanded="true" />
+            <element signature="e#1070#1078#0" expanded="true" />
+            <element signature="e#2315#2326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="41" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammar.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="8" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammar2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="75" selection-start="0" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="123" selection-start="739" selection-end="739" vertical-scroll-proportion="0.4373928" vertical-offset="0" max-vertical-offset="583">
+          <folding />
         </state>
       </provider>
     </entry>
